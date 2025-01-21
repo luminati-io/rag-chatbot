@@ -37,9 +37,7 @@ This tutorial guides through building a RAG chatbot using OpenAI’s GPT models.
 
 The biggest challenge is scraping SERP data. Most search engines come with advanced anti-bot solutions to prevent automated access to their pages. For detailed guidance, refer to our guide on [how to scrape Google in Python](https://brightdata.com/blog/web-data/scraping-google-with-python).
 
-To simplify the scraping process, we will use [Bright Data’s SERP API](https://brightdata.com/products/serp-api):
-
-![Bright Data's SERP API page](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-20.png)
+To simplify the scraping process, we will use [Bright Data’s SERP API](https://brightdata.com/products/serp-api).
 
 This SERP scraper allows you to easily retrieve SERPs from Google, DuckDuckGo, Bing, Yandex, Baidu, and other search engines using simple HTTP requests.
 
