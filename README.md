@@ -1,4 +1,4 @@
-# How To Creating a RAG Chatbot With GPT-4o Using SERP Data
+# Creating a RAG Chatbot With GPT-4o Using SERP Data
 
 [![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
 
