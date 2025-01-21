@@ -39,7 +39,7 @@ The biggest challenge is scraping SERP data. Most search engines come with advan
 
 To simplify the scraping process, we will use [Bright Data’s SERP API](https://brightdata.com/products/serp-api):
 
-![Bright Data's SERP API page](https://brightdata.com/wp-content/uploads/2024/10/image-20-1024x493.png)
+![Bright Data's SERP API page](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-20.png)
 
 This SERP scraper allows you to easily retrieve SERPs from Google, DuckDuckGo, Bing, Yandex, Baidu, and other search engines using simple HTTP requests.
 
@@ -138,7 +138,7 @@ import streamlit as st
 
 Then, create a `.env` file in your project folder to store all your credentials. Your project structure will now look like as below:
 
-![Project structure](https://brightdata.com/wp-content/uploads/2024/10/image-19.png)
+![Project structure](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-19.png)
 
 Use the function below in `app.py` to instruct `python-dotenv` to load the environment variables from `.env`:
 
@@ -160,17 +160,17 @@ To set up SERP API, refer to the [official documentation](https://docs.brightdat
 
 If you have not already created an account, [sign up for Bright Data](https://brightdata.com). Once logged in, navigate to your account dashboard:
 
-![Account main dashboard](https://brightdata.com/wp-content/uploads/2024/10/image-18-1024x493.png)
+![Account main dashboard](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-18.png)
 
 There, click the “Get proxy products” button.
 
 That will bring you to the page below, where you have to click on the “SERP API” row:
 
-![Clicking on SERP API](https://brightdata.com/wp-content/uploads/2024/10/image-17-1024x489.png)
+![Clicking on SERP API](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-17.png)
 
 On the SERP API product page, toggle “Activate zone” to enable the product:
 
-![Activating the SERP zone](https://brightdata.com/wp-content/uploads/2024/10/image-16-1024x485.png)
+![Activating the SERP zone](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-16.png)
 
 Now, copy the SERP API host, port, username, and password in the “Access parameters” section and add them to your `.env` file:
 
@@ -413,7 +413,7 @@ While the `["p", "em", "li", "strong", "h1", "h2"]` tags are enough to extract t
 
 For example, consider the [web page below](https://athomeinhollywood.com/2024/09/19/transformers-one-review/):
 
-![Transformers one review page](https://brightdata.com/wp-content/uploads/2024/10/image-15-1024x466.png)
+![Transformers one review page](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-15.png)
 
 Applying that function to that page will result in this text array:
 
@@ -795,7 +795,7 @@ Network URL: http://172.27.134.248:8501
 
 Follow the instructions, and visit `http://localhost:8501` in the browser. Below is what you should be seeing:
 
-![Streamlit app screenshot](https://brightdata.com/wp-content/uploads/2024/10/image-14.png)
+![Streamlit app screenshot](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-14.png)
 
 Test the application by using a Google search query as below:
 
@@ -811,7 +811,7 @@ Write a review for the movie Transformers One
 
 Click “Send” and wait while your application processes the request. After a few seconds, you should get a result like this:
 
-![App result screenshot](https://brightdata.com/wp-content/uploads/2024/10/image-13-723x1024.png)
+![App result screenshot](https://github.com/luminati-io/rag-chatbot/blob/main/Images/image-13.png)
 
 If you expand the “AI Final Prompt” dropdown, you will see the complete prompt used by the application for RAG.
 
