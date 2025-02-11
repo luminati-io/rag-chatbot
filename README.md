@@ -345,7 +345,9 @@ The last few lines of the function retrieve each SERP URL from the resulting JSO
 Define a function that extracts text from each of the SERP URLs:
 
 ```python
-def extract_text_from_urls(urls, number_of_words=600):
+# Note: Some websites may have dynamic content or anti-scraping measures that could prevent text extraction.
+# In such cases, please consider using additional tools like Selenium
+def extract_text_from_urls(urls, number_of_words=600): 
 
 # instruct a headless Chrome instance to visit the provided URLs
 
@@ -778,9 +780,9 @@ st.write(result)
 Launch your Python RAG application with:
 
 ```bash
+# Note: Streamlit is designed for lightweight applications. For production-grade deployments, consider using frameworks like Flask or FastAPI.
 streamlit run app.py
 ```
-
 In the terminal, you should see the following output:
 
 ```
